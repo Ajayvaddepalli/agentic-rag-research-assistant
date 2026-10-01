@@ -1,0 +1,36 @@
+# AI Research Assistant - Deployment Requirements
+# Optimized for Hugging Face Spaces and other cloud platforms
+
+# Core AI/ML Libraries (with version constraints for stability)
+langchain>=0.1.0,<0.2.0
+langgraph>=0.4.0,<0.5.0
+langchain-openai>=0.1.0,<0.2.0
+langchain-community>=0.0.20,<0.1.0
+
+# Vector Database
+chromadb>=0.4.20,<0.5.0
+
+# Document Processing
+pypdf>=4.0.0,<5.0.0
+tiktoken>=0.6.0,<0.7.0
+
+# Web Search
+tavily-python>=0.3.0,<0.4.0
+
+# Environment Management
+python-dotenv>=1.0.0,<2.0.0
+
+# Web Interface (critical for deployment)
+gradio>=4.15.0,<5.0.0
+
+# Essential Utilities
+pandas>=2.0.0,<3.0.0
+numpy>=1.24.0,<2.0.0
+
+# System Dependencies
+setuptools>=65.0.0
+wheel>=0.38.0
+
+# Optional: For better performance
+# uvloop>=0.17.0  # Uncomment for faster async performance on Linux
+# orjson>=3.8.0   # Uncomment for faster JSON processing

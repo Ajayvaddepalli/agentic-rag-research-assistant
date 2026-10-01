@@ -1,0 +1,43 @@
+# AI Research Assistant - Python Dependencies
+
+# Core LangChain
+langchain==0.3.27
+langchain-community==0.3.29
+langchain-openai==0.3.33
+langchain-huggingface==0.3.1
+langchain-groq==0.3.8
+langchain-ollama==0.3.8
+
+# LangGraph (pinned for compatibility)
+langgraph==0.6.7
+langgraph-checkpoint==2.1.1
+langgraph-prebuilt==0.6.4
+langgraph-sdk==0.2.6
+
+# Vector Database
+chromadb==1.0.21
+sentence-transformers==5.1.0
+
+# Document Processing
+pypdf==6.0.0
+tiktoken==0.11.0
+
+# Web Search
+tavily-python==0.7.12
+requests==2.32.5
+beautifulsoup4==4.13.5
+
+# Environment Management
+python-dotenv==1.1.1
+
+# Web Interface
+gradio==5.45.0
+
+# Data Handling
+pandas==2.3.2
+numpy==2.2.6
+
+# Development & Testing
+pytest==8.4.2
+setuptools==75.8.0
+wheel==0.44.0
